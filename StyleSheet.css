@@ -1,0 +1,118 @@
+﻿body    {
+    background-color:mediumaquamarine;
+    color:aquamarine;
+    text-align:center;
+    font-size:14px;
+    font-family:'Comic Sans MS';
+}
+#errorLabel {
+    position: fixed;
+    font-family: 'Courier New';
+    color: palevioletred;
+    margin-top: 1.5%;
+    top: 18px;
+    left:10px;
+    z-index:2;
+}
+#folderLabel {
+    font-family: 'Courier New';
+    color: greenyellow;
+}
+#navbar {
+    background-color:aquamarine;
+    width:102%;
+    height:50px;
+    position:fixed;
+    top:20px;
+    left:-10px;
+}
+#navbarCenter {
+    height: 100%;
+    width: 70%;
+    padding-left:5%;
+    padding-right:5%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#redirectList {
+    margin-top:1.5%;
+	float:left;
+    width: 40%;
+}
+#redirectButton, #editButton, #deleteButton {
+	margin-top:1.5%;
+	margin-left:3%;
+    float:left;
+    width: 15%;
+}
+#deleteEnable {
+    float: right;
+    margin-top:1.5%;
+}
+#sideBar {
+    float:left;
+    height:200px;
+    width:15%;
+    margin-top:85px;
+    background-color: aquamarine;
+    position:fixed;
+}
+#pageList {
+    float:left;
+    width:95%;
+    height:15%;
+    margin-left:2.5%;
+    margin-top:5%;
+}
+#linkButton, #headButton, #breakButton, #folderList, 
+#folderButton, #newFolderBox, #newFolderButton, #deleteFolderButton, #imageSubmit, #imageUpload {
+    float:left;
+    margin-left:2.5%;
+    width:95%;
+    height:12.5%;
+    margin-top:5%;
+}
+#imageUpload, #imageSubmit {
+    width:40%;
+}
+#imageUpload {
+    height: 25px;
+}
+#sideBar2 {
+    float:left;
+    height:200px;
+    width:15%;
+    margin-top:313px;
+    background-color: aquamarine;
+    position:fixed;
+}
+#main { 
+    background-color: aquamarine;
+    width:83%;
+    height:400px;
+    margin-top:85px;
+    float:right;
+    padding-top:30px;
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+}
+#textBox {
+    width: 100%;
+    height: 80%;
+}
+#titleBox {
+	width: 30%;
+	height:7.5%;
+	float:left;
+	margin-bottom:30px;
+}
+#submitButton {
+    float:right;
+    width:15%;
+    height:7.5%;
+    margin-bottom:30px;
+}
